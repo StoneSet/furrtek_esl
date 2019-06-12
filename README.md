@@ -1,4 +1,3 @@
-
 # ESL EMITTER HACK - V1 of 2014
 ## The Eagle project of the esl project + apk and hex files
 
