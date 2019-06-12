@@ -212,7 +212,7 @@ HACK</text>
 <text x="31" y="37" size="1.016" layer="25" rot="R270">10nF</text>
 <text x="29.544671875" y="21.84671875" size="1.016" layer="25" rot="R270">100k</text>
 <text x="33.591478125" y="21.378609375" size="1.016" layer="25" rot="R270">10k</text>
-<text x="21.919165625" y="7.4726875" size="1.016" layer="25">100uF</text>
+<text x="22.7490875" y="7.555640625" size="1.016" layer="25">3.3k</text>
 <text x="26.5072125" y="2.468103125" size="1.016" layer="25">IR LED</text>
 <text x="13.741559375" y="1.129984375" size="1.016" layer="25">3.3nF</text>
 <text x="8.365546875" y="4.59230625" size="1.016" layer="25" rot="R90">220r</text>
