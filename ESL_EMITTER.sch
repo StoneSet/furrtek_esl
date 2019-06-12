@@ -5955,9 +5955,9 @@ Standard 8.5x11 US Letter frame</description>
 <part name="GND9" library="supply0" deviceset="GND" device=""/>
 <part name="V3" library="supply0" deviceset="VBAT" device=""/>
 <part name="U1" library="_hhn_attiny25_45_85" deviceset="ATTINY85*" device="P" technology="-"/>
-<part name="Q1" library="adafruit" deviceset="CRYSTAL" device="HC49U-H"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="10NF" device="-PTH-10MM-10000V-1-%" value="10nF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="10NF" device="-PTH-10MM-10000V-1-%" value="10nF"/>
+<part name="Q1" library="adafruit" deviceset="CRYSTAL" device="HC49U-H" value="10MHz"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="10NF" device="-PTH-10MM-10000V-1-%" value="22p"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="10NF" device="-PTH-10MM-10000V-1-%" value="22p"/>
 <part name="GND4" library="supply" deviceset="GND" device=""/>
 <part name="R1" library="resistor" deviceset="R-EU_" device="0207/7" value="3.3k"/>
 <part name="GND5" library="supply" deviceset="GND" device=""/>
@@ -5966,7 +5966,7 @@ Standard 8.5x11 US Letter frame</description>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="C5" library="SparkFun" deviceset="CAP_POL" device="PTH2" value="100uF"/>
 <part name="T1" library="adafruit" deviceset="2N2222" device=""/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="10NF" device="-PTH-10MM-10000V-1-%" value="10nF"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="10NF" device="-PTH-10MM-10000V-1-%" value="3.3nF"/>
 <part name="GND6" library="supply" deviceset="GND" device=""/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="0207/7" value="220r"/>
 <part name="V1" library="supply0" deviceset="VBAT" device=""/>
@@ -6040,7 +6040,7 @@ Standard 8.5x11 US Letter frame</description>
 </instance>
 <instance part="C3" gate="G$1" x="167.64" y="99.06" smashed="yes">
 <attribute name="NAME" x="169.164" y="101.981" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="159.004" y="96.901" size="1.778" layer="96" font="vector"/>
+<attribute name="VALUE" x="161.544" y="96.901" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="C4" gate="G$1" x="172.72" y="99.06" smashed="yes">
 <attribute name="NAME" x="174.244" y="101.981" size="1.778" layer="95" font="vector"/>
