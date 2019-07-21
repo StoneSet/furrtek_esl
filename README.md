@@ -26,11 +26,12 @@
 ![alt text](https://raw.githubusercontent.com/StoneSet/furrtek_esl/master/img/schematics.png "The schematic")
 ------
 
-![alt text](http://files.stoneset.fr/others/esl_furrtek/img/IMG_0121.png "Board") ![alt text](http://files.stoneset.fr/others/esl_furrtek/img/IMG_0124.png "Board")
+![alt text](http://files.stoneset.fr/others/esl_furrtek/img/docs/IMG_0121.JPG "Board") 
+![alt text](http://files.stoneset.fr/others/esl_furrtek/img/docs/IMG_0124.JPG "Board")
 
 ### To dot it, you will need :
 
-![alt text](http://files.stoneset.fr/others/esl_furrtek/img/IMG_0125.png)
+![alt text](http://files.stoneset.fr/others/esl_furrtek/img/docs/IMG_0125.JPG "Board")
 
 - x1 Attiny85
 - x1 78L05 regulator
