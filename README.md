@@ -43,6 +43,7 @@
 - x1 100k resistor
 - x1 3.3k resistor
 - x1 10MHz quartz
+- x1 220ohm resistor
 - x1 47ohm resistor
 - x1 SFH485P IR LED - 880NM
 - x1 9v battery clip
