@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TabHost android:id="@id/tabHost" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <HorizontalScrollView android:background="#ff202020" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <TabWidget android:orientation="horizontal" android:id="@android:id/tabs" android:background="#ff202020" android:layout_width="fill_parent" android:layout_height="wrap_content" android:tabStripEnabled="false" />
+        </HorizontalScrollView>
+        <FrameLayout android:id="@android:id/tabcontent" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/tab1" android:paddingTop="96.0px" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/tab1" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tab2" android:paddingTop="96.0px" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/tab2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tab3" android:paddingTop="96.0px" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/tab3" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tab4" android:paddingTop="96.0px" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/tab4" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tab5" android:paddingTop="96.0px" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/tab5" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tab6" android:paddingTop="96.0px" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/tab6" />
+            </LinearLayout>
+        </FrameLayout>
+    </TabHost>
+    <ImageView android:id="@id/imgv1" android:layout_width="fill_parent" android:layout_height="28.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ftk_logo" android:layout_alignParentBottom="true" />
+</RelativeLayout>
