@@ -28,7 +28,7 @@
 
 ## Some img's :
 
-<img src="https://raw.githubusercontent.com/StoneSet/furrtek_esl/master/img/schematics.png" alt="alt" width="600">
+<img src="https://raw.githubusercontent.com/StoneSet/furrtek_esl/master/pcb/img/schematics.png" alt="alt" width="600">
 
 ------
 <img src="http://files.stoneset.fr/others/esl_furrtek/img/docs/IMG_0121.JPG" alt="alt" width="500">
