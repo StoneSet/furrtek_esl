@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  box-sizing: border-box;
+  color: #3D4852;
+  background-color: #DFBB6A;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%237e7e80' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+  font-family: 'Open Sans', Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.container {
+  width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.list {
+  
+  &__header {
+    background: #E2E2E2;
+    padding: 15px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    
+    img {
+      border-radius: 50%;
+      width: 50px;
+    }
+    
+    .hostname {
+      margin-left: 12px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  
+  &__body {
+    background: white;
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 17px;
+  cursor: pointer;
+  transition: all .25s ease;
+  
+  &:hover {
+    background: #E2E2E2;
+  }
+  
+  &-key {
+    border: 1px solid #ccc;
+    background: #F3F3F3;
+    line-height: 1;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  &-quote {
+    font-weight: bold;
+    margin-left: 14px;
+  }
+}
+
+.playing {
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+  animation: 0.05s infinite alternate waggle;
+}
+
+@keyframes waggle {
+  from { transform: rotate(4grad) }
+  to { transform: rotate(-4grad) }
+}
+
+
+// Responsive 
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  
+  .container {
+    grid-template-columns: 1fr;
+  }
+  
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

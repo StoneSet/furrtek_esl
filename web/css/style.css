@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  box-sizing: border-box;
+  color: #3D4852;
+  background-color: #000000;
+  font-family: 'Montserrat', Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+
+}
+
+.container {
+  width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.list__header {
+  background: #c52222;
+  padding: 15px 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.list__header img {
+  border-radius: 70%;
+  width: 60px;
+  height: 60px;
+}
+.list__header .hostname {
+  margin-left: 12px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.list__body {
+  background: white;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 17px;
+  cursor: pointer;
+  transition: all .25s ease;
+}
+.list__item:hover {
+  background: #E2E2E2;
+}
+.list__item-key {
+  border: 1px solid #ccc;
+  background: #F3F3F3;
+  line-height: 1;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list__item-quote {
+  font-weight: bold;
+  margin-left: 14px;
+}
+
+.playing {
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+  animation: 0.05s infinite alternate waggle;
+}
+
+@keyframes waggle {
+  from {
+    transform: rotate(4grad);
+  }
+  to {
+    transform: rotate(-4grad);
+  }
+}
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
